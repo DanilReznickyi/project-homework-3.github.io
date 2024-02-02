@@ -1,0 +1,213 @@
+a{
+	text-decoration: none;
+}
+a:hover{
+text-decoration: none;
+}
+body{
+	margin: 0;
+font-family: 'Roboto', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+
+/*header*/
+
+#header{
+	padding: 15px 0;
+	border-bottom: 2px solid #00e9ba;
+	margin: 0 0 40px;
+}
+.container{
+	max-width: 980px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+.logo{
+	display: block;
+	max-width: 102px;
+}
+.nav-list .active a{
+	color: #00e9ba;
+}
+.nav-list{
+	    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.nav-list li{
+	margin: 10px;
+	font-size: 15px;
+	font-weight: 700;
+
+}
+.nav-list li a{
+	color: #333;
+}
+.nav-list li a:hover {
+	color: #00e9ba;
+}
+
+.header-inner{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.title{
+font-size: 30px;
+margin: 0 0 20px;
+text-align: center;
+}
+
+/* lessons */
+
+.lessons-row{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0 -15px;
+}
+
+.lessons-col{
+	width: 33.31%;
+	padding: 0 15px;
+ }
+
+.lesson{
+box-shadow: 0 13px 27px rgba(0, 0, 0, 0.15);
+max-width: 320px;
+padding: 20px;
+margin: 20px;
+position: relative;
+}
+
+
+.lesson-img{
+	margin: 0 0 20px;
+	height: 300px;
+}
+
+.lesson-title{
+	display: block;
+	font-size: 21px;
+	font-weight: 700;
+	margin: 0 0 20px;
+	text-transform: uppercase;
+}
+
+.lesson-price{
+	font-size: 30px;
+	font-weight: 700;
+	color: #00e9ba;
+	display: block;
+	text-align: right;
+}
+
+.span{
+	background-color: yellow;
+	padding: 5px 50px;
+}
+.container-description{
+	text-align: center;
+}
+h3{
+text-align: center;
+font-size: 40px;
+}
+
+p{
+	margin: 10px 100px;
+}
+.lesson-liner{
+	position: absolute;
+	left: 0px;
+	top: 50px;
+}
+
+.item{
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	background-color: lightgreen;
+	position: absolute;
+	top: -30px;
+	left: 200px;
+	text-align: center;
+}
+
+.btn-subscribe{
+	background-color: red;
+	text-decoration: none;
+  outline: none;
+  display: inline-block;
+  color: white;
+  padding: 20px 30px;
+  margin: 10px 20px;
+  border-radius: 10px;
+}
+.btn-subscribe:hover{
+background: #00e9ba;
+}
+.btn-description{
+	background-color: lightgreen;
+	text-decoration: none;
+  outline: none;
+  display: inline-block;
+  color: white;
+  padding: 20px 30px;
+  margin: 10px 20px;
+  border-radius: 10px;
+}
+.btn-description:hover{
+	background: #00e9ba;
+}
+.btn-warning{
+	background-color: orange;
+ text-decoration: none;
+  outline: none;
+  display: inline-block;
+  color: white;
+  padding: 20px 30px;
+  margin: 10px 20px;
+  border-radius: 10px;
+}
+.btn-warning:hover{
+	background: #00e9ba;
+}
+.btn-cuccess{
+	background-color: yellow;
+	text-decoration: none;
+  outline: none;
+  display: inline-block;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px 10px;
+  border-radius: 5px;
+}
+.btn-cuccess:hover{
+	background: #00e9ba;
+}
+.btn-exit{
+	background-color: #000;
+	text-decoration: none;
+  outline: none;
+  display: inline-block;
+  color: white;
+  padding: 30px 80px;
+  margin: 30px 40px;
+  border-radius: 30px;
+}
+.btn-exit:hover{
+	background: #00e9ba;
+}
+.btn{
+	width: 40%;
+	margin: 50px 450px;
+}
+
